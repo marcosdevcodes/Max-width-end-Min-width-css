@@ -1,0 +1,69 @@
+html{
+    scroll-behavior: smooth;/* Para usar os links de
+    ancora no html para ter o scroll suave*/
+    font-size: 62.5%;/*  16 * 0.625  no paragrafo
+    agora 1.6rem vai ser 16px por causa desse 62.5%*/
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    font-size: 1.6rem;
+}
+.pai-1{
+    /*width: 30rem;height: 30rem;/* Significa 300px por causa do 
+    html 62.5%*/
+    width: 50rem; /*500px vil ports ocupa toda a largura
+    do navegador ou seja da janela aberta*/
+    height: 100vh;/*vil height*/
+    background: yellow;
+    border-bottom: 2px solid #000;
+}
+.pai-1 > div{
+    width: 50%;/*esse 50% de largura é referente ao 
+    pai dela que é a .pai-1 50rem ou seja 500px*/
+    height: 50rem;
+    background: blue; 
+}
+.pai-2{
+    width: 100vw;
+    height: 100vh;
+    background: #1672db;
+    border-bottom: 2px solid #000;
+}
+.pai-3{
+    width: 100vw;
+    height: 100vh;
+    background: #db16ce;
+    border-bottom: 2px solid #000;
+}
+.pai-4{
+    width: 100vw;
+    height: 100vh;
+    background: #65db16;
+    border-bottom: 2px solid #000;
+}
+.pai-5{
+    width: 100vw;
+    height: 100vh;
+    background: #484648;
+    color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+p{
+    font-size: 1.6rem;/* =16px*/
+
+    /*se não colocar uma inudade de medida no pai
+    esse valor 20px não vai mudar ela fica uma 
+    unidade de medida padrão do computador 
+    ou seja se o usuario almentar a font do seu
+    pc ela vai ser a mesma não muda*/
+    /* font-size: 20px; */
+
+    /*  font-size: 0.5em;/*se colocar 50px no pai esse 
+    0.5em vai ser a metade do pai por q ele pega
+    o pai como exemplo então ele vai ficar com
+    25px que é 0.5em é 50% de 50px*/
+}
