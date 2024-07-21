@@ -10,13 +10,22 @@ html{
 }
 a{
     font-size: 1.6rem;
+    color: #fff;
+}
+.container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #656565;
 }
 .pai-1{
     /*width: 30rem;height: 30rem;/* Significa 300px por causa do 
     html 62.5%*/
     width: 50rem; /*500px vil ports ocupa toda a largura
     do navegador ou seja da janela aberta*/
-    height: 100vh;/*vil height*/
+    height: calc(100vh - 100px);/*vil height*/
     background: yellow;
     border-bottom: 2px solid #000;
 }
